@@ -65,3 +65,16 @@
   font-size: 15px !important;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 376px) {
+  .icon-container {
+    position: relative;
+    right: -30px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .app-header {
+    font-size: 20px;
+  }
+}
